@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+/* :root {
+  --cd-color-light-dark: #201c2b;
+  --cd-color-dark: #14121c;
+  --cd-color-white: #ffffff;
+  --cd-color-blue: #47cdee;
+  --cd-color-purple: #520bad;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:focus {
+  box-shadow: none !important;
+}
+html {
+  overflow: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+body {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "inter";
+  color: var(--cd-color-white);
+  background-color: var(--cd-color-dark);
+  font-weight: 400;
+} */
+/* img {
+  width: 100%;
+} */
+
+/* -------------------------------------------------------------------------- */
+/*                                Globel style                                */
+/* -------------------------------------------------------------------------- */
+
+.card-title h5{
+  font-weight: bold;
+  margin: 0;
+  color: cadetblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-title p {
+  margin: 0;
+  color: aliceblue;
+}
+.rounded-10 {
+  border-radius: 10px;
+}
+
+/* ------------------------------ Footer style ------------------------------ */
+
+/* .weburl {
+  font-size: 18px;
+  -webkit-animation: colorchange 0.5s infinite alternate;
+}
+@-webkit-keyframes colorchange {
+  0% {
+    color: #2fccef;
+  }
+  100% {
+    color: #520bad;
+  }
+} */
+/* ------------------------------ header style ------------------------------ */
+/* .navbar-light,
+footer .row {
+  background-color: var(--cd-color-dark) !important;
+  border: 1px solid var(--cd-color-light-dark) !important;
+}
+.site-logo img {
+  transition: all 0.3s;
+}
+.site-logo:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+.social .social-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #520bad;
+  background: -moz-linear-gradient(130deg, #520bad 0%, #2fccef 100%);
+  background: -webkit-linear-gradient(130deg, #520bad 0%, #2fccef 100%);
+  background: linear-gradient(130deg, #520bad 0%, #2fccef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#520BAD ",endColorstr="#2FCCEF  ",GradientType=1);
+  border-radius: 7px;
+}
+.social .social-icon i {
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.social .social-icon:hover i {
+  color: #000000;
+}
+@media (max-width: 575px) {
+  .social {
+    max-width: 200px;
+  }
+} */
+
+/* ------------------------------- Card style ------------------------------- */
+.cardtn {
+  background-color: #7EC8E3;
+  width: 50%;
+  margin-top: 20px;
+}
+
+
+/* ------------------------------ Card Design 17 ----------------------------- */
+/* .cd-17 .card-body .list-num{
+  min-width:28px;
+  min-height:28px;
+  display: inline-block;
+  color:var(--cd-color-dark);
+  background-color:var(--cd-color-white);
+  border-radius:100px;
+  text-align: center;
+  line-height:28px;
+  margin-right:10px;
+} */
+
+/* ------------------------------ Card Design 18 ----------------------------- */
+/* .cd-18 a.btn {
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.cd-18 a.btn {
+  background-color: var(--cd-color-blue);
+  border-color: var(--cd-color-blue);
+  color: var(--cd-color-dark);
+}
+.cd-18 a.btn:hover {
+  background-color: var(--cd-color-purple);
+  border-color: var(--cd-color-purple);
+  color: var(--cd-color-white);
+}
+.cd-18 .btn.btn-outline {
+  background: transparent;
+  color: var(--cd-color-blue);
+}
+.cd-18 .btn.btn-outline:hover {
+  background: var(--cd-color-purple);
+  border-color: var(--cd-color-purple);
+  color: var(--cd-color-white);
+} */
+/* ------------------------------ Card Design 19 ----------------------------- */
+/* .cd-19 .active-badge {
+  width: 14px;
+  height: 14px;
+  top: 0%;
+  right: 0%;
+  border-color: var(--cd-color-blue);
+  animation: 1.5s ripple ease-out infinite;
+  background: #ccc;
+}
+@keyframes ripple {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+} */
+
+
+/* ------------------------------ Card Design 20 ----------------------------- */
+/* no css need */
+
+/* ------------------------------ Card Design 21 ----------------------------- */
+/* no css need */
+
+/* ------------------------------ Card Design 22 ----------------------------- */
+/* .cd-22 .card-img{
+  transition: all 0.3s;
+}
+.cd-22:hover .card-img{
+  transform: scale(1.2);
+}
+.cd-22 .list-style-circle li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+}
+.cd-22 .list-style-circle li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  display: inline-block;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+}
+.cd-22 a.btn {
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: fit-content;
+  background-color: var(--cd-color-blue);
+  border-color: var(--cd-color-blue);
+  color: var(--cd-color-dark);
+}
+.cd-22 a.btn:hover {
+  background-color: var(--cd-color-purple);
+  border-color: var(--cd-color-purple);
+  color: var(--cd-color-white);
+} */
+
+/* ------------------------------ Card Design 23 ----------------------------- */
+/* .cd-23 .card-img{
+  transition: all 0.3s;
+}
+.cd-23:hover .card-img{
+  transform: scale(1.2);
+}
+.cd-23 a.btn {
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: fit-content;
+  background-color: var(--cd-color-blue);
+  border-color: var(--cd-color-blue);
+  color: var(--cd-color-dark);
+}
+.cd-23 a.btn:hover {
+  background-color: var(--cd-color-purple);
+  border-color: var(--cd-color-purple);
+  color: var(--cd-color-white);
+} */
+
+/* ------------------------------ Card Design 24 ----------------------------- */
+/* .cd-24 .card-img {
+  width: 32px;
+  height: 32px;
+}
+.cd-24 .active-badge {
+  width: 14px;
+  height: 14px;
+  top: 40%;
+  right: 5%;
+  border-color: var(--cd-color-blue);
+  animation: 1.5s ripple ease-out infinite;
+  background: #ccc;
+}
+@keyframes ripple {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+}
+.cd-24 .cd-24-body-img img{
+  transition: all 0.3s;
+}
+.cd-24:hover .cd-24-body-img img{
+  transform: scale(1.2);
+}
+.cd-24 a.btn {
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.cd-24 a.btn {
+  background-color: var(--cd-color-blue);
+  border-color: var(--cd-color-blue);
+  color: var(--cd-color-dark);
+}
+.cd-24 a.btn:hover {
+  background-color: var(--cd-color-purple);
+  border-color: var(--cd-color-purple);
+  color: var(--cd-color-white);
+}
+.cd-24 .btn.btn-outline {
+  background: transparent;
+  color: var(--cd-color-blue);
+}
+.cd-24 .btn.btn-outline:hover {
+  background: var(--cd-color-purple);
+  border-color: var(--cd-color-purple);
+  color: var(--cd-color-white);
+} */

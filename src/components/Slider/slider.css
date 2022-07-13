@@ -1,0 +1,43 @@
+.containerSlider {
+    width: 100%;
+    height: 80vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid #000; */
+    /* color: white; */
+    /* position: relative; */
+    text-align: center;
+    color: #000;
+    background-image: url('../../Assets/Images/bg2.jpg');
+
+    /*position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;*/
+}
+
+.containerSlider h3{
+    justify-content: center;
+    text-align: center;
+}
+
+.linkgo
+{
+    text-decoration: none;
+    color: red(255, 255, 255);
+    font-size: 30px;
+}
+
+.primary-text h1{
+    /* color: (--white); */
+    color: #000;
+}
+
+.profile-role-tagline p{
+    font-size: 25px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+    text-transform: uppercase;
+    color: #000;
+}
